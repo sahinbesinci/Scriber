@@ -1,10 +1,12 @@
-# Scriber
-
 Sql Dosyası: https://drive.google.com/open?id=0B4_U5WAdFcTcSFBmQmhCREJTSms
+
 Soket Dosyası : https://drive.google.com/open?id=0B4_U5WAdFcTcalV3bWxtNW1XT0k
+
 Web Servisleri : https://drive.google.com/open?id=0B4_U5WAdFcTcZFBjVzFicUZpalU
 
+
 UYGULAMANIN ÇALIŞMASI
+
 
 Android  ile  geliştirilen  uygulama  twitter  benzeri  bilgi  paylaşımı şeklinde  bir  uygulamadır.  Uygulamada  kullanıcılar  birbirini  
 takip edebilmekte, takip edilen kişilerin paylaşımlarını görebilme özelliğine sahiptir.  Kişiler  ile  arasında  konuşma  yapabilen  bir
