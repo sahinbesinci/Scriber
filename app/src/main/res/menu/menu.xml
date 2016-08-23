@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/profil"
+        android:title="Profil"
+        android:icon="@mipmap/profil"
+        android:showAsAction="ifRoom"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/anasayfa"
+        android:title="Anasayfa"
+        android:icon="@mipmap/home"
+        android:showAsAction="ifRoom"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/mesaj"
+        android:title="Mesaj"
+        android:icon="@mipmap/mesaj"
+        android:showAsAction="ifRoom"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/ara"
+        android:title="Ara"
+        android:icon="@mipmap/ara"
+        android:showAsAction="ifRoom"
+        app:showAsAction="always"/>
+</menu>

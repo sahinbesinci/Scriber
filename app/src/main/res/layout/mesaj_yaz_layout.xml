@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#9f500000">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="338dp"
+        android:id="@+id/lvChat"
+        android:scrollbars="vertical"
+        android:transcriptMode="alwaysScroll"
+        android:stackFromBottom="true"
+        android:choiceMode="none"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.9"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.1"
+        android:weightSum="1">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/etYazi"
+            android:layout_weight="0.3"/>
+        <Button
+            android:id="@+id/btnGonder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:text="GÖNDER"
+            android:background="#ff0d00"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+</LinearLayout>
